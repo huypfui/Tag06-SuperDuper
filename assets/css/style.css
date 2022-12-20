@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: MavenPro;
+    src: url(../fonts/MavenPro-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: GildaDisplay;
+    src: url(../fonts/GildaDisplay-Regular.ttf);
+}
+
+header {
+    width: auto;
+    background-color: #333;
+    color:white;
+}
+
+.logo {
+    width:5%;
+    font-family: MavenPro;
+    font-size: 1.1em;
+    padding-left: 1%;
+    padding-bottom: 5%;    
+}
+
+.card {
+    background: linear-gradient(25deg, rgba(133,7,225,1) 20%, rgba(25,72,148,1) 50%,rgba(61,200,213,1) 100%);
+    font-family: GildaDisplay;
+    width: 130px;
+    margin-left: 45%;
+    margin-top: 100px;
+}
+
+.card :hover {
+    background: linear-gradient(25deg, rgba(61,200,213,1) 20%, rgba(25,72,148,1) 50%, rgba(133,7,225,1) 100%)
+}
+
+
+.cardtext {
+    padding: 5px;
+}
+
+.cardtext h1 {
+    font-size: 2em;
+    margin: auto;
+    padding: auto;
+}
+
+.cardtext p{
+    font-size: 0.5em;
+}
+
+.navigation {
+    font-family: MavenPro;
+    text-align: right;
+    padding-top: 150px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+}
+
+.navigation ul {
+    list-style-type: none;
+    font-size: 0.8em;
+}
+
+.navigation li {
+    padding-top: 5px;
+}
+.navigation a {
+    text-decoration: none;
+    color: #cccccc;
+}
+
+.navigation a:hover {
+    color:#ffffff;
+}
+
+.maintext {
+    width: 430px;
+    padding: 50px;
+    font-family: GildaDisplay;
+    font-weight: bold;
+}
+
+.maintext h2 {
+    font-size: 2em;
+    padding-bottom: 50px;
+}
+
+.maintext p{
+    font-size: 0.7em;
+}
+
+.projects {
+    padding-left: 100px;
+    padding-bottom: 100px;
+}
+
+.projects img {
+    width: 400px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.projects h3 {
+    padding-bottom: 10px;
+}
+
+.projects p {
+    font-size: 0.5em;
+    font-family: MavenPro;
+}
+
+
+
+
