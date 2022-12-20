@@ -29,29 +29,24 @@ header {
 }
 
 .card {
-    background: linear-gradient(25deg, rgba(133,7,225,1) 20%, rgba(25,72,148,1) 50%,rgba(61,200,213,1) 100%);
+    background: linear-gradient(25deg, rgba(133,7,225,1) 0%, rgba(25,72,148,1) 50%,rgba(61,200,213,1) 100%);
     font-family: GildaDisplay;
     width: 130px;
+    padding: 5px;
     margin-left: 45%;
     margin-top: 100px;
 }
 
 .card :hover {
-    background: linear-gradient(25deg, rgba(61,200,213,1) 20%, rgba(25,72,148,1) 50%, rgba(133,7,225,1) 100%)
+    background: linear-gradient(25deg, rgba(61,200,213,1) 0%, rgba(25,72,148,1) 50%, rgba(133,7,225,1) 100%);
 }
 
 
-.cardtext {
-    padding: 5px;
-}
-
-.cardtext h1 {
+.card h1 {
     font-size: 2em;
-    margin: auto;
-    padding: auto;
 }
 
-.cardtext p{
+.card p{
     font-size: 0.5em;
 }
 
@@ -85,6 +80,10 @@ header {
     padding: 50px;
     font-family: GildaDisplay;
     font-weight: bold;
+}
+
+.maintext img{
+    width: 400px;
 }
 
 .maintext h2 {
